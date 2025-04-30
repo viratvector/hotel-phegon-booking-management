@@ -1,3 +1,10 @@
+#frontend
+node_modules
+.cache
+build
+dist
+
+#backend
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
@@ -36,4 +43,5 @@ build/
 .gradle
 bin/
 *.log
+>>>>>>> 2a9226aa57846c6481f5c9dd488066d9dca54207
 .DS_Store
