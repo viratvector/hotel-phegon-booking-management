@@ -20,21 +20,28 @@ The Phegon Hotel Booking Management System provides a platform for managing hote
 - Room filtering by type/price(Luxury, Dormitory, etc)
 - Booking management with confirmation code
 - Book room and view booking details
-<img width="500" alt="1" src="https://github.com/user-attachments/assets/367f6798-038c-4b53-bf60-3ae589502268" />
-<img width="500" alt="2" src="https://github.com/user-attachments/assets/7f2631d0-b081-4c10-b14a-769f7e008e1a" />
+<img width="400" alt="1" src="https://github.com/user-attachments/assets/367f6798-038c-4b53-bf60-3ae589502268" />
+<img width="400" alt="2" src="https://github.com/user-attachments/assets/7f2631d0-b081-4c10-b14a-769f7e008e1a" />
 
-1. Admin Features:
+
+2. Admin Features:
 
 - Room Inventory Management(Add/Edit/Delete)
 - User management
 - Image upload/management via S3
+<img width="400" alt="3" src="https://github.com/user-attachments/assets/c03ecfa5-989e-4cb5-adf8-08d4eae1303a" />
+<img width="400" alt="5" src="https://github.com/user-attachments/assets/f3b75200-09e9-4bdd-9445-2c5b31e3c96c" />
 
-1. System Features:
+
+3. System Features:
 
 - Responsive UI with secure login/sign up
 - Real time price/availability updates
 - User Authorization and Authentication
 - Booking Confirmation System
+<img width="400" alt="6" src="https://github.com/user-attachments/assets/babaee86-ffc0-4a28-a919-68625262034b" />
+<img width="400" alt="7" src="https://github.com/user-attachments/assets/3866384f-40f3-425b-8ab6-5341cdfcd20c" />
+
 
 ## Implementation
 
