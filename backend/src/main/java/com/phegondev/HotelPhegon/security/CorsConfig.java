@@ -15,8 +15,8 @@ public class CorsConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
                         .allowedMethods("GET", "POST", "PUT", "DELETE")
-                        ..allowedOrigins("https://phegon-hotel-group.netlify.app")
-                        .allowCredentials(true);
+                        .allowedOrigins("https://phegon-hotel-group.netlify.app")
+                        .allowCredentials(false);
             }
         };
     }
