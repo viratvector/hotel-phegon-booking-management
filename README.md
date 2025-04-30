@@ -20,7 +20,8 @@ The Phegon Hotel Booking Management System provides a platform for managing hote
 - Room filtering by type/price(Luxury, Dormitory, etc)
 - Booking management with confirmation code
 - Book room and view booking details
-
+<img width="500" alt="1" src="https://github.com/user-attachments/assets/367f6798-038c-4b53-bf60-3ae589502268" />
+<img width="500" alt="2" src="https://github.com/user-attachments/assets/7f2631d0-b081-4c10-b14a-769f7e008e1a" />
 
 1. Admin Features:
 
