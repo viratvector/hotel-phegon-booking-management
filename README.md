@@ -1,40 +1,55 @@
-# Getting Started with Create React App
+## Technology used
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Backend: Java 21, Spring Boot 3, Spring Security with JWT Authentication, REST API
+2. Frontend: HTML, CSS, JavaScript, React.js
+3. Database and Storage: PostgreSQL, AWS S3
+4. API Testing: Postman
 
-## Available Scripts
+## Video link
 
-In the project directory, you can run:
+<https://www.loom.com/share/f5de32effbd04c788a43894700ff1fce?sid=47f7e5b9-d996-4fb2-bd85-a91ca9601e1a>
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The Phegon Hotel Booking Management System provides a platform for managing hotel room bookings with distinct user roles.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. User Features:
 
-### `npm test`
+- Secure registration/login system
+- Date based room availability checking
+- Room filtering by type/price(Luxury, Dormitory, etc)
+- Booking management with confirmation code
+- Book room and view booking details
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+1. Admin Features:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Room Inventory Management(Add/Edit/Delete)
+- User management
+- Image upload/management via S3
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. System Features:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Responsive UI with secure login/sign up
+- Real time price/availability updates
+- User Authorization and Authentication
+- Booking Confirmation System
 
-### `npm run eject`
+## Implementation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Entities: Java classes(Users, Rooms, Bookings) mapped to tables in DB
+2. Backend: Java and Spring Boot used for building the backend API, handling business logic, and managing data interactions The backend will expose various API endpoints (likely RESTful) that the React.js frontend consumes for actions like fetching rooms, creating bookings, user authentication and retrieving booking details. Spring Security implemented for user authentication (login and registration) and authorization (controlling access based on user roles like admin and standard user). JWT is likely used to manage and verify user sessions after login.
+3. Frontend: HTML, CSS and JavaScript form the basic structure, styling, and client-side interactivity of the web pages. React.js powers the frontend user interface, providing a dynamic and interactive experience for browsing rooms, making bookings, and viewing booking details. It interacts with the backend API to fetch and display data.
+4. AWS S3: Code related to uploading, storing, and retrieving room images will be present in the backend to interact with the AWS S3 service. This ensures scalable image storage and delivery.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Future Scope
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Payment Gateway Integration
+2. Booking Rating System
+3. Generate PDF of the booking and payment details
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+Development_setup:
+- mvn spring-boot:run
+- npm install
+- npm start (node version 18)
