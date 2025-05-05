@@ -1,4 +1,4 @@
-## Technology used
+## Technologies
 
 1. Backend: Java 21, Spring Boot 3, Spring Security with JWT Authentication, REST API
 2. Frontend: HTML, CSS, JavaScript, React.js
