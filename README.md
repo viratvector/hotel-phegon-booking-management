@@ -5,7 +5,7 @@
 3. Database and Storage: PostgreSQL, AWS S3
 4. API Testing: Postman
 
-## Video link
+## Demo Video
 
 <https://www.loom.com/share/f5de32effbd04c788a43894700ff1fce?sid=47f7e5b9-d996-4fb2-bd85-a91ca9601e1a>
 
